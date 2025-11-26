@@ -1,0 +1,34 @@
+[build-system]
+requires = ["uv_build >= 0.9.9, <0.10.0"]
+build-backend = "uv_build"
+
+[project]
+name = "dsc"
+description = "A targetted collection of AI/ML knowledge for data scientists."
+authors = [
+  {name = "Xavier Gill", email = "xaviercgill@gmail.com"},
+]
+readme = "README.md"
+keywords = [
+    "data science",
+    "machine learning",
+    "artificial intelligence",
+    "scientific computing",
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Mathematics",
+
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+version = "0.0.1"
+requires-python = ">= 3.10"
+dependencies = []
