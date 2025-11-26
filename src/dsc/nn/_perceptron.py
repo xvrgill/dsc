@@ -6,7 +6,7 @@ import numpy.typing as npt
 NDArrayFloat = npt.NDArray[np.float64]
 
 
-class Peceptron:
+class Perceptron:
     """
     Perceptron classifier.
 
@@ -38,7 +38,7 @@ class Peceptron:
         self.b_: np.float64 | None = None
         self.errors_: list[int] | None = None
 
-    def fit(self, X: NDArrayFloat, y: NDArrayFloat):
+    def fit(self, X: NDArrayFloat, y: NDArrayFloat) -> Perceptron:
         """
         Fit training data.
 
